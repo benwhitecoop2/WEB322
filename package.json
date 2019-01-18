@@ -1,0 +1,26 @@
+{
+  "name": "package.json",
+  "version": "1.0.0",
+  "description": "package.json for entry point",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Ben White",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "client-sessions": "^0.8.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "glyphicons-only-bootstrap": "^1.0.1",
+    "mongoose": "^5.3.14",
+    "multer": "^1.4.1",
+    "pg": "^7.6.1",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.41.2"
+  },
+  "devDependencies": {}
+}

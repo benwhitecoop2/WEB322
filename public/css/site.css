@@ -1,0 +1,14 @@
+.main{
+  border:1px black;
+}
+.container-fluid{
+  background-image: url("header.png");
+}
+.navbar-brand{
+  color: white !important;
+  direction: rtl !important;
+}
+
+.navbar-nav li{
+  background-color: lightgrey !important;
+}
